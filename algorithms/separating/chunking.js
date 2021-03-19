@@ -1,4 +1,4 @@
-const mock = require('./data/MOCK_DATA.json');
+const mock = require('../data/MOCK_DATA.json');
 
 const chunk = (data, num) => {
     const chunked = [];
