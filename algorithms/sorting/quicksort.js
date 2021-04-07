@@ -40,8 +40,4 @@ const partition = (arr, low, high) => {
     return (i + 1);
 }
 
-
-
-var a = [14, 13, 123,3,12,41,134,1324,564,57445,234242,34];
-quickSortHelper(a);
-console.log(a)
+module.exports.quickSort = quickSortHelper;
